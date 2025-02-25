@@ -70,9 +70,9 @@ h1, p, i {
 }
 
 .time p {
-    margin: 0 0.5rem; /* Adjust spacing around the colon */
+    margin: 0 0.5rem; 
     text-align: center;
-    min-width: 5rem; /* Ensure numbers have equal width */
+    min-width: 5rem; 
 }
 
 .controls {
