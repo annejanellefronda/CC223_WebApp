@@ -1,0 +1,99 @@
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: #1c1c3c;
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, p, i {
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+    background: #2a2a5a;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.tab {
+    display: flex;
+    justify-content: space-around;
+    width: 20rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.tab p {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tab p.active {
+    color: yellow;
+    font-weight: bold;
+}
+
+.timer {
+    width: 20rem;
+    height: 20rem;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #ffcc00, #ff6600);
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.time p {
+    margin: 0 0.5rem; /* Adjust spacing around the colon */
+    text-align: center;
+    min-width: 5rem; /* Ensure numbers have equal width */
+}
+
+.controls {
+    margin-top: 2rem;
+}
+
+button {
+    font-size: 2.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    color: yellow;
+}
+
+#reset {
+    display: none;
+}

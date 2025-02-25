@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Timer</title>
+    <script src="https://kit.fontawesome.com/6f3103b13c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1>Study Timer</h1>
+
+            <div class="tab">
+                <p id="study" class="active">Study</p>
+                <p id="break">Break</p>
+            </div>
+
+            <div class="timer">
+                <div class="circle">
+                    <div class="time">
+                        <p id="minutes">2</p>
+                        <p>:</p>
+                        <p id="seconds">00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="start"><i class="fa-solid fa-play"></i></button>
+                <button id="reset" style="display: none;"><i class="fa-solid fa-arrow-rotate-left"></i></button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
